@@ -1,0 +1,79 @@
+.card {
+    width: 600px;
+    height: 600px;
+    border-radius: 75px 75px 20px 20px;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card--header {
+    display: flex;
+    align-items: top;
+    gap: 20px;
+}
+
+.card--header--content {
+    color: #000;
+    font-family: Comic Neue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card--header--content > h1 {
+    font-size: 40px;
+}
+
+.card--header--image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.25));
+}
+
+.card--header--content {
+    
+}
+
+.card--bio {
+    padding-top: 20px;
+    margin-bottom: auto;
+}
+
+.card--buttons--yes {
+    border-radius: 20px;
+    background: #3AB04D;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card--buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.card--buttons > button {
+    width: 250px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-family: Comic Neue;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card--buttons--yes {
+    background: #3AB04D;
+}
+
+.card--buttons--no {
+    background: #F43737;
+}
